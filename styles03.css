@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(18, 18, 99);
+}
+
+div {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+div#one {
+    background-color: rgb(168, 70, 233);
+    z-index: 3;
+    position: fixed;
+}
+
+div#two {
+    background-color: rgb(77, 240, 131);
+    z-index: 2;
+    position: fixed;
+}
+
+div#three {
+    background-color: rgb(229, 240, 77);
+    z-index: 1;
+    position: fixed;
+}
